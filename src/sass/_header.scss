@@ -6,7 +6,7 @@
   width: 100%;
   transform: translateX(-50%);
 
-  background-color: rgba(132, 161, 120, 0.7);
+  background-color: rgba(132, 161, 120, 0.9);
 }
 
 .header__container {
@@ -201,10 +201,7 @@
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
-    background-color: var(--green-btn-color);
-  }
-
+ 
   &:hover > .logo__icon {
     fill: var(--main-light-color);
   }

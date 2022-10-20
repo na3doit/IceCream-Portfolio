@@ -16,7 +16,7 @@ $('.carousel').slick({
 $('.section-gallery__slider').slick({
   dots: false,
   infinite: true,
-  speed: 1000,
+  speed: 300,
   fade: true,
   slide: 'div',
   cssEase: 'linear',
