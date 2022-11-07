@@ -86,7 +86,7 @@
     }
     &:focus {
         outline: none;
-        border-color: red;
+        border-color: var(--accent-color);
     }
 }
 
@@ -110,7 +110,7 @@
     }
     &:focus {
         outline: none;
-        border-color: red;
+        border-color: var(--accent-color);
     }
     
 }

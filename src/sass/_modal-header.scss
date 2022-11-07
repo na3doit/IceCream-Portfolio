@@ -189,7 +189,7 @@
     }
     &:focus {
         outline: none;
-        border-color: red;
+        border-color: var(--accent-color);
     }
 
 }
@@ -220,7 +220,7 @@ margin-top: 12px;
     }
     &:focus {
         outline: none;
-        border-color: red;
+        border-color: var(--accent-color);
     }
 } 
 
